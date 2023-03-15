@@ -1,0 +1,22 @@
+{
+  "name": "solo-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd ./services && npm run start:dev\" \"cd ./admin && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdconnors/solo-system.git"
+  },
+  "author": "Brandon Connors <bdc5435@rit.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdconnors/solo-system/issues"
+  },
+  "homepage": "https://github.com/bdconnors/solo-system#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "concurrently \"cd ./account && npm run start:dev\" \"cd ./website && npm run start:dev\" \"cd ./gateway && npm run start:dev\""
+  },
+  "author": "Brandon Connors <bdc5435@rit.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

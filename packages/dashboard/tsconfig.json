@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",
+    "declaration": true,
+    "strict": true,
+    "declarationDir": "dist",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "baseUrl": "./src"
+  },
+  "include": ["src", "../firebase-client/src/dashboard-provider/dashboard-provider", "../firebase-client/src/dashboard-provider/DashboardProvider.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
